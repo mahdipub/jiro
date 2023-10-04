@@ -6,7 +6,7 @@
   },
   jenkins+: {
     plugins+: [
-      "gerrit-trigger",
+      "gerrit-trigger"
     ]
   }
 }

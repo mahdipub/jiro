@@ -5,8 +5,8 @@
   },
   jenkins+: {
     plugins+: [
-      "slack",
       "parameterized-scheduler",
+      "matrix-communication",
     ],
   },
 }

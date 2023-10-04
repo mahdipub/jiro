@@ -35,6 +35,7 @@ local permissionsTemplates = import '../../templates/permissions.libsonnet';
       "embeddable-build-status",
       "envinject",
       "generic-webhook-trigger",
+      "gerrit-trigger", # required for ssh key for agent connections
       "gradle",
     ],
   },
